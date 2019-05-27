@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Calculadora CriptoJose</title>
+		<style type="text/css">
+			body{
+				font-family: Arial;
+				font-size:125%;
+				background-color: #009c8c;
+				color: #00ffff
+			}
+
+			b{
+				color: #d22e2e;
+			}
+
+			#iconoInfo{
+				font-size: 70%
+			}
+
+			.cajas{
+				font-size:80%;
+				height: 20px;
+				width: 100px;
+				margin: 5px;
+				border: 2px;
+				border-radius: 10px;
+				background-color: #aa0033;
+				color: white;
+			}
+
+			.botones{
+				font-size:80%;
+				height: 30px;
+				width: 200px;
+				color:red;
+				border:50px;
+				border-radius:10px;
+				background-color: green;
+			}
+		</style>
+		<link rel="icon" type="image/png" href="raton.png"/>
+	</head>
+	<body>
+		<p>
+			<h3>[ Compra real ]</h3>
+			<input class="cajas" type="number" id="inversion"> Inversion en <b>BsS</b>.<br>
+			<input class="cajas" type="number" id="valorMoneda">  Valor de la moneda. <b>BsS</b>.<br>
+			<input class="cajas" type="number" id="comicionMoneda">  Comicion de moneda. <b>*Criptounidad*</b>.<br>
+			<p id = "salida"></p>
+			<input class="botones" type="button" value="Calcular Moneda" id="botonCompras">
+		</p>
+		<p>
+			<h3>[ Modificaciones ]</h3>
+			<input class="cajas" type="number" id="aumentoCompra"> Mod. Inversion <b>BsS</b>.<br>
+			<input class="cajas" type="number" id="aumentoValor"> Mod. Valor Moneda. <b>BsS</b>.<br>
+			<input class="cajas" type="number" id="porcentaje"> Comición. <b>%</b>.<br>
+			<p id = "salida2"></p>
+			<input class="botones" type="button" value ="Calcular Inversion" id="botonCalculoCompra">
+			<input class="botones" type="button" value ="Calcular Valor de Moneda" id="botonCalculoValor">
+		</p>
+		<p> Alpha V1.0</p>
+		<script type="text/javascript" src="scripts/Ganancias.js"></script>
+		<div id="iconoInfo">Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+	</body>
+</html>
